@@ -92,7 +92,7 @@ chain = (
 )
 
 # Ask questions
-question = "Who is Satvik Sharma"
+question = input('Enter the query: ')
 answer = chain.invoke(question)
 
 print("="*80)
